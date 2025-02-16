@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #fce4ec, #f8bbd0, #f0f2f5);
+    background-color: #f8bbd0; /* Soft Baby Pink */
     color: #333;
     text-align: center;
     padding: 50px;
@@ -13,7 +13,7 @@ body {
     margin: auto;
     border-radius: 12px;
     backdrop-filter: blur(12px);
-    box-shadow: 0px 6px 20px rgba(255, 182, 193, 0.3);
+    box-shadow: 0px 6px 20px rgba(255, 105, 180, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
