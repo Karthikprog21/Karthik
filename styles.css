@@ -53,10 +53,12 @@ h1 {
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    border: none;
     font-weight: bold;
-    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none; /* Removes underline */
     color: white;
+    border: none;
+    transition: all 0.3s ease;
 }
 
 /* LinkedIn Button */
