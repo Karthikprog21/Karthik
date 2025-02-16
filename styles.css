@@ -43,7 +43,19 @@ h1 {
     font-style: italic;
 }
 
-.container:hover {
-    background: rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 8px 25px rgba(255, 105, 180, 0.4);
-} 
+.linkedin-btn {
+    background-color: #d81b60; /* Dark Pink */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.linkedin-btn:hover {
+    background-color: #ad1457; /* Deep Rose */
+    box-shadow: 0px 4px 15px rgba(216, 27, 96, 0.4);
+}
