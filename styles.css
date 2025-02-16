@@ -43,8 +43,8 @@ h1 {
     font-style: italic;
 }
 
-/* Social Media Buttons */
-button {
+/* Universal Button Style */
+.social-btn {
     display: block;
     width: 80%;
     max-width: 250px;
@@ -54,14 +54,14 @@ button {
     border-radius: 8px;
     cursor: pointer;
     border: none;
-    transition: all 0.3s ease;
     font-weight: bold;
+    transition: all 0.3s ease;
+    color: white;
 }
 
 /* LinkedIn Button */
 .linkedin-btn {
-    background-color: #d81b60; /* Dark Pink */
-    color: white;
+    background-color: #d81b60;
 }
 
 .linkedin-btn:hover {
@@ -71,22 +71,21 @@ button {
 
 /* Instagram Button */
 .instagram-btn {
-    background-color: #E4405F; /* Instagram Red-Pink */
-    color: white;
+    background-color: #E4405F;
 }
 
 .instagram-btn:hover {
-    background-color: #C13584; /* Deep Instagram Pink */
+    background-color: #C13584;
     box-shadow: 0px 4px 15px rgba(225, 64, 95, 0.4);
 }
 
 /* Snapchat Button */
 .snapchat-btn {
-    background-color: #FFFC00; /* Snapchat Yellow */
-    color: #000; /* Black text for contrast */
+    background-color: #FFFC00;
+    color: black; /* Snapchat color contrast */
 }
 
 .snapchat-btn:hover {
-    background-color: #FFD700; /* Gold Yellow */
+    background-color: #FFD700;
     box-shadow: 0px 4px 15px rgba(255, 252, 0, 0.4);
 }
